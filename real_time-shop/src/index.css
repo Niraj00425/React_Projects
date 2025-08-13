@@ -1,0 +1,22 @@
+:root { --brand: #0d6efd; }
+body { background: #f8f9fa; }
+.badge-live {
+  background: linear-gradient(90deg, #dc3545, #fd7e14);
+  color: #fff;
+}
+.card-img-top { object-fit: cover; height: 180px; }
+.offcanvas-like {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+  height: 100vh; 
+  width: 360px;
+  background: #fff; 
+  box-shadow: -0.25rem 0 1rem rgba(0,0,0,.1);
+  transform: translateX(100%); 
+  transition: transform .25s ease;
+  z-index: 1050; 
+  display: flex; 
+  flex-direction: column;
+}
+.offcanvas-like.open { transform: translateX(0); }

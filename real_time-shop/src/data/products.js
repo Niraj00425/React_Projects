@@ -12,7 +12,7 @@ export const seedProducts = [
     id: "sku-wireless-buds",
     title: "Zen Wireless Buds",
     price: 2499,
-    rating: 4.4,
+    rating: 4.4, 
     stock: 32,
     category: "Electronics",
     img: "https://images.unsplash.com/photo-1518443874485-07fb3b4b575e?q=80&w=1200&auto=format&fit=crop",
